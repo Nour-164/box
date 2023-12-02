@@ -1,0 +1,22 @@
+body
+{
+	
+	background-color:yellow;
+ 
+}
+ 
+ 
+@keyframes moveImage {
+  0% { transform: translate(0, 0); }
+  25% { transform: translate(650%, 0); }
+  50% { transform: translate(650%, 200%); }
+  75% { transform: translate(0, 240%); }
+  100% { transform: translate(0, 0); }
+}
+ 
+.moving-image {
+  position: relative;
+  animation: moveImage 15s linear infinite;
+  
+} 
+
